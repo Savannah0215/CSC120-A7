@@ -8,5 +8,8 @@ public class House extends Building {
   public static void main(String[] args) {
     new House();
   }
-
+  private ArrayList<Student> residents = new ArrayList<Student>(); // The <Student> tells Java what kind of data we plan to store IN the ArrayList
+    
+    
+  private boolean hasDiningRoom;
 }
