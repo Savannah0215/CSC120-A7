@@ -15,7 +15,21 @@ public class House extends Building {
   public boolean getHasDiningRoom() {
     return hasDiningRoom;   
   }  
+  
+  public boolean isResident(Student s) {
+    isResident(Student s) = residents.contains(Student s)
+    return isResident(Student s);
+  }
+  
   public int getnResidents() {
     return residents;
   }
+
+  public void moveIn(Student s) {
+    residents.add(Student s);
+  }
+  
+  public Student moveOut(Student s) { // return the Student who moved out
+    residents.remove(Student s);
+  }  
 }
