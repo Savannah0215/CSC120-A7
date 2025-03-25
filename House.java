@@ -1,5 +1,5 @@
 /* This is a stub for the House class */
-public class House {
+public class House extends Building {
 
   public House() {
     System.out.println("You have built a house: 🏠");
