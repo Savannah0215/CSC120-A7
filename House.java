@@ -12,10 +12,10 @@ public class House extends Building {
     new House();
   }
 
-  public boolean hasDiningRoom() {
+  public boolean getHasDiningRoom() {
     return hasDiningRoom;   
   }  
-  public int nResidents() {
-    return nResidents;
+  public int getnResidents() {
+    return residents;
   }
 }
