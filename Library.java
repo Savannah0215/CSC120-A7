@@ -1,6 +1,6 @@
-/* This is a stub for the Library class */
-public class Library {
-
+import java.util.Hashtable
+public class Library extends Building {
+    private Hashtable<String, boolean> collection; 
     public Library() {
       System.out.println("You have built a library: 📖");
     }
