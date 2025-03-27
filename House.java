@@ -17,7 +17,7 @@ public class House extends Building {
   }  
   
   public boolean isResident(Student s) {
-    isResident(Student s) = residents.contains(Student s)
+    isResident(Student s) = residents.contains(Student s);
     return isResident(Student s);
   }
   
